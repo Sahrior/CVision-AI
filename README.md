@@ -99,19 +99,6 @@ Start production server:
 npm run start
 ```
 
-## 🐳 Docker Setup
-
-Build Docker image:
-
-```bash
-docker build -t cvision-ai .
-```
-
-Run container:
-
-```bash
-docker run -p 3000:3000 cvision-ai
-```
 
 ## 🎯 Purpose
 
