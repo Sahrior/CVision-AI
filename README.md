@@ -1,40 +1,94 @@
-# Welcome to React Router!
+# CVision AI 🚀
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume analysis platform that helps users evaluate, improve, and optimize their resumes for better job opportunities.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Built with modern frontend technologies, CVision AI provides resume scoring, ATS compatibility analysis, resume insights, and an interactive user experience.
 
-## Features
+## 🌐 Live Preview
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+(Add your deployed link here)
 
-## Getting Started
+## 📌 Features
 
-### Installation
+* 📄 Upload and analyze resumes
+* 🤖 AI-powered resume evaluation
+* 📊 ATS (Applicant Tracking System) compatibility checking
+* ⭐ Resume scoring system
+* 📈 Visual score indicators and analysis
+* 📝 Resume summary and improvement suggestions
+* 🔐 Authentication system
+* ⚡ Fast and responsive UI
+* 📱 Mobile-friendly design
 
-Install the dependencies:
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React 19
+* React Router
+* TypeScript
+* Tailwind CSS
+* Vite
+
+### Libraries & Tools
+
+* React Dropzone (File Upload)
+* PDF.js (PDF Processing)
+* Zustand (State Management)
+* Tailwind Merge
+* Docker Support
+
+## 📂 Project Structure
+
+```
+CVision-AI/
+│
+├── app/
+│   ├── components/     # Reusable UI components
+│   ├── routes/         # Application pages/routes
+│   ├── lib/            # Helper functions and utilities
+│   └── root.tsx        # Application root
+│
+├── public/             # Static assets
+│
+├── package.json
+├── Dockerfile
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sahrior/CVision-AI.git
+```
+
+Go to the project folder:
+
+```bash
+cd CVision-AI
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Open in browser:
 
-## Building for Production
+```
+http://localhost:5173
+```
+
+## 🏗️ Build For Production
 
 Create a production build:
 
@@ -42,46 +96,39 @@ Create a production build:
 npm run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+Start production server:
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm run start
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## 🐳 Docker Setup
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+Build Docker image:
 
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+```bash
+docker build -t cvision-ai .
 ```
 
-## Styling
+Run container:
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+```bash
+docker run -p 3000:3000 cvision-ai
+```
+
+## 🎯 Purpose
+
+CVision AI was created to explore AI-powered UI development, modern React architecture, file processing, and building practical productivity tools.
+
+The project focuses on creating a clean, interactive, and user-friendly experience for job seekers.
+
+## 👨‍💻 Author
+
+**Sahrior**
+
+GitHub:
+https://github.com/Sahrior
 
 ---
 
-Built with ❤️ using React Router.
+⭐ If you find this project useful, consider giving it a star!
