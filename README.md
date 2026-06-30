@@ -4,9 +4,6 @@ An AI-powered resume analysis platform that helps users evaluate, improve, and o
 
 Built with modern frontend technologies, CVision AI provides resume scoring, ATS compatibility analysis, resume insights, and an interactive user experience.
 
-## 🌐 Live Preview
-
-(Add your deployed link here)
 
 ## 📌 Features
 
